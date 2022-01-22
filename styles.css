@@ -5,9 +5,9 @@ body {
 .img {
     display: block;
     text-align: center;
-    width: 2000px;
-    height: 750px;
-    margin: 10px auto 20px;
+    width: auto;
+    height: auto;
+    margin: 0px;
     border-radius: 6px;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -19,6 +19,27 @@ body {
     animation: blink 4s infinite alternate;
     position: absolute;
     top: 40px;
-    right: 400px;
-    font-size: 45px
+    left: 830px;
+    font-size: 60px;
+    white-space: nowrap;
+}
+
+.top-right2 {
+    color: #ffd9e2;
+    text-shadow: 0 0 0 transparent, 0 0 10px #ff003c, 0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, 0 0 100px #ff003c, 0 0 200px #ff003c, 0 0 300px #ff003c, 0 0 500px #ff003c, 0 0 1000px #ff003c;
+    -webkit-animation: blink 4s infinite alternate;
+    animation: blink 4s infinite alternate;
+    position: absolute;
+    top: 200px;
+    left: 830px;
+    font-size: 60px;
+    white-space: nowrap;
+}
+
+.spacer {
+    margin-left: 2.5em;
+    padding: 0 7em 300em 0;
+    border-width: 2px; 
+    border-color: transparent; 
+    border-style: solid;
 }
